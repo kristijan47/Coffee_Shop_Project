@@ -1,0 +1,167 @@
+/* style.css */
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #eee;
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+
+}
+
+#logo img{
+	width: 100px;
+}
+
+
+
+
+/* container - max-width for whole content */
+.container{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+
+
+nav{
+	background-color: white;
+	height: 100px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 1000;
+}
+
+#logo{
+	float: left;
+	padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+/* header */
+header{
+	background-color: #737e8a;
+	text-align: center;
+	padding: 160px 0;
+	color: white;
+}
+
+/* Call To Action */
+.cta h1{
+	font-size: 65px;
+	font-weight: 400;
+	margin: 15px 0;
+}
+
+.cta h4{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.cta button{
+	border: none;
+	background-color: #444f5c;
+	color: white;
+	font-size: 24px;
+	padding: 15px 50px;
+	border-radius: 50px;
+}
+
+
+
+/* Coffees */
+.coffee-box{
+	background-color: white;
+	text-align: center;
+	padding: 60px 30px;
+	margin: 0 20px;
+	
+}
+
+.espreso{
+	float: left;
+	width: 28%;
+}
+
+.latte{
+	float: left;
+	width: 28%;
+}
+
+.vienna{
+	float: left;
+	width: 28%;
+}
+
+.irish {
+	float: left;
+	width: 28%;
+}
+.cappuccino{
+	float: left;
+	width: 28%;
+}
+.mochachino{
+	float:left;
+	width:28%;
+}
+
+
+.coffees{
+	position: relative;
+	bottom: 100px;
+}
+
+
+
+/* Responsive Design */
+@media screen and (max-width: 780px){
+	.espresso{
+		float: none;
+		width: 70%;
+	}
+
+	.latte{
+		float: none;
+		width: 70%;
+	}
+
+	.vienna{
+		float: none;
+		width: 70%;
+	}
+
+	.irish {
+		float:none;
+		width: 70%;
+	}
+	.cappuccino{
+		float:none;
+		width: 70%;
+	}
+	.mochachino{
+		float: none;
+		width: 70%;
+	}
+
+	.coffee-box{
+		margin: 20px auto;
+	}
+}
+
+@media screen and (max-width: 620px){
+	#menu{
+		display: none;
+	}
+
+
+}
